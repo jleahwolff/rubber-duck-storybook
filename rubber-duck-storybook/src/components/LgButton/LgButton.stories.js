@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Button from './Button';
-import './Button.css';
+import LgButton from './LgButton';
+import './LgButton.css';
 
 export default {
-    title: 'V1/Button',
-    component: Button,
+    title: 'V1/Large Button',
+    component: LgButton,
     argTypes: {
         onClick: { action: 'clicked' },
         variant: { 
@@ -16,7 +16,7 @@ export default {
     },
     };
 
-const Template = (args) => <Button {...args}>A Button</Button>;
+const Template = (args) => <LgButton {...args}>A Button</LgButton>;
 
 
 export const Primary = Template.bind({});
