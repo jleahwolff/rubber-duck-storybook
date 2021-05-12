@@ -21,6 +21,6 @@ const Template = (args) => <LgButton {...args}>A Button</LgButton>;
 
 export const Primary = Template.bind({});
 Primary.args = {
-    text: 'Get Started',
+    text: 'Edit Card',
     variant: 'primary',
 };
