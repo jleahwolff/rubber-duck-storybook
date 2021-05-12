@@ -10,7 +10,7 @@ classNames({
     'bg-red-100 text-white bg-gradient-to-br hover:from-red-200 hover:to-red-100 focus:ring-red-200': variant === 'danger-primary',
     'bg-grey-200 text-grey-100 focus:ring-grey-100': variant === 'disabled',
     'border-red-100 border text-red-100 hover:border-red-200 focus:text-red-200 focus:ring-red-200': variant === 'danger',
-    'inline-flex items-center px-10 tracking-wide py-1 font-display font-medium rounded-full text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 ': true
+    'inline-flex items-center px-10 tracking-wide w-auto max-w-max py-1 font-display font-medium rounded-full text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 ': true
 });
 
 const Button = ({ variant, children, text, onClick, ...rest }) => (
