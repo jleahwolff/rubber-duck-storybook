@@ -1,0 +1,14 @@
+@import '../../index.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind forms;
+
+.button{
+    background-color: red;
+    color: white;
+}
+
+.primary{
+    background-color: red
+}

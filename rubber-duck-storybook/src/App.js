@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Button from './components/Button/Button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-full h-screen mx-auto container flex flex-col items-center justify-center">
+      <div className="items-center flex flex-col items-center bg-blue-400 px-16 py-12 rounded-lg shadow-xl">
+        <div className="text-2xl text-purple-200 font-extrabold ">React + Tailwind + Storybook</div>
+        <Button/>
+        <div className="text-lg text-white font-medium">Much awesome frontend development!</div>
+      </div>
     </div>
   );
 }
